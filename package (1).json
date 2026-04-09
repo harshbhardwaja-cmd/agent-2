@@ -1,0 +1,22 @@
+{
+  "name": "doctor-agent2-automation",
+  "version": "1.0.0",
+  "description": "Automation agent — WhatsApp, Google Meet, Paytm for doctor clinic",
+  "main": "automation_server.js",
+  "scripts": {
+    "start": "node automation_server.js",
+    "dev": "nodemon automation_server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "googleapis": "^140.0.1",
+    "node-cron": "^3.0.3",
+    "twilio": "^5.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
